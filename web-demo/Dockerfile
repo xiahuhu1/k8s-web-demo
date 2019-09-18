@@ -1,4 +1,4 @@
-FROM hub.mooc.com/kubernetes/tomcat:8.0.51-alpine
+FROM tomcat:latest
 
 COPY ROOT /usr/local/tomcat/webapps/ROOT
 
